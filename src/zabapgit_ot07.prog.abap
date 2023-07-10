@@ -30,6 +30,7 @@ REPORT zabapgit_ot07 LINE-SIZE 100.
 
 DATA gv_intVal TYPE int2.
 DATA gv_intVal2 TYPE int2.
+DATA gv_intVal3 TYPE int2.
 
 
 SELECTION-SCREEN BEGIN OF SCREEN 1001.
