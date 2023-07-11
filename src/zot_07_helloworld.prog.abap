@@ -5,4 +5,5 @@
 *&---------------------------------------------------------------------*
 REPORT zot_07_helloworld.
 
-WRITE 'HELLO WORLD!'.
+WRITE: 'HELLO WORLD!',
+     / 'HELLO NTT'.
