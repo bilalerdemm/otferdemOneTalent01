@@ -12,6 +12,18 @@
    </PROGDIR>
    <TPOOL>
     <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Sayi Girin</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Islem Secin</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
      <ID>R</ID>
      <ENTRY>TASK 2 HESAP 2 DEGİSKENLİ HESAP MAKİNESİ</ENTRY>
      <LENGTH>40</LENGTH>
