@@ -29,6 +29,10 @@ cl_demo_output=>display( gv_result ).
 
 
 
+
+*CATCH cx_sy_zerodivide.
+*CATCH cx_sy_assign_cast_error.
+
 * Tek komutla yazdırmak için değişkene atamak yerine sonucu doğrudan
 * aşağıdaki gibi yazdırmaya çalıştım fakat syntax hatası verdi
 *cl_demo_output=>display(  COND #( WHEN p_topla = 'X' THEN p_val1 + p_val2

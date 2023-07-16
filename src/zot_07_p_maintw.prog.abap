@@ -19,7 +19,7 @@ SELECTION-SCREEN END OF BLOCK b2.
 
 START-OF-SELECTION.
 
-  DATA lt_tweets TYPE TABLE OF zot_07_t_newtw.
+* DATA lt_tweets TYPE TABLE OF zot_07_t_newtw.
   DATA gs_tweet_t TYPE zot_07_t_newtw.
 
   IF id = space AND ( p_tweet EQ 'X' OR p_degist EQ 'X' OR p_sil EQ 'X' ).
