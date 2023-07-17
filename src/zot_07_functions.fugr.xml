@@ -10,7 +10,6 @@
    <FUNCTIONS>
     <item>
      <FUNCNAME>ZOT_07_DO_MATH_OPS</FUNCNAME>
-     <SHORT_TEXT>Math. Operations</SHORT_TEXT>
      <IMPORT>
       <RSIMP>
        <PARAMETER>IV_NUMBER1</PARAMETER>

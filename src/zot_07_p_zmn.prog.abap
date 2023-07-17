@@ -52,6 +52,8 @@ START-OF-SELECTION.
         duration   = lv_sec_diff.
 
 
+*    lv_sec_diff = CONV int4( lv_time2 - lv_time1 ).
+
     DATA(lv_seconds) = lv_sec_diff.
     DATA(lv_minutes) = lv_seconds DIV 60.
     DATA(lv_hour) = lv_seconds DIV 3600.
