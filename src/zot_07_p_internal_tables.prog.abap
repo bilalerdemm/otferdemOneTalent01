@@ -87,15 +87,22 @@ DATA: ls_mtrl_collect TYPE  lty_mtrl.
 LOOP AT lt_material2 INTO DATA(ls_material2).
   ls_mtrl_collect = VALUE #(   matkl = ls_material2-matkl
                                menge = ls_material2-menge ).
-
-
   COLLECT ls_mtrl_collect INTO lt_mtrl_collect.
 ENDLOOP.
 
+
+
+
+
 DELETE lt_mtrl_collect WHERE menge < 10.
+
+
+
+
 
 SORT lt_material2 ASCENDING BY menge.
 SORT lt_mtrl_collect DESCENDING BY menge.
 
-cl_demo_output=>display( lt_material2 ).
-cl_demo_output=>display( lt_mtrl_collect ).
+cl_demo_output=>write_data( lt_material2 ).
+cl_demo_output=>write_data( lt_mtrl_collect ).
+cl_demo_output=>display( ).
