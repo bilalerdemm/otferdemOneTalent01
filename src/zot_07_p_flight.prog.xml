@@ -3,18 +3,17 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <PROGDIR>
-    <NAME>ZOT_07_P_SQLPRACT</NAME>
-    <DBAPL>S</DBAPL>
+    <NAME>ZOT_07_P_FLIGHT</NAME>
     <SUBC>1</SUBC>
+    <RLOAD>T</RLOAD>
     <FIXPT>X</FIXPT>
-    <LDBNAME>D$S</LDBNAME>
     <UCCHECK>X</UCCHECK>
    </PROGDIR>
    <TPOOL>
     <item>
      <ID>R</ID>
-     <ENTRY>SQL Pratikleri ve Antrenmanlari</ENTRY>
-     <LENGTH>31</LENGTH>
+     <ENTRY>Belge Yazdırma Programı</ENTRY>
+     <LENGTH>23</LENGTH>
     </item>
    </TPOOL>
   </asx:values>
